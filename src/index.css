@@ -1,0 +1,38 @@
+#root {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.toolbar {
+  display: flex;
+  gap: 5px;
+}
+
+.toolbar button {
+  background-color: #fff;
+  color: #555;
+  padding: 7px 14px;
+  border: solid 1px #555;
+}
+
+.toolbar button.active {
+  color: #fff;
+  background-color: #555;
+}
+
+.project-list {
+  column-count: 3;
+  column-gap: 16px;
+  margin-top: 16px;
+}
+
+.project-card {
+  break-inside: avoid;
+  margin-bottom: 16px;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
